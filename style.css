@@ -91,6 +91,10 @@ nav ul li a {
     /* color:white; */
     border-radius: 10px 80px 10px 10px;
     padding: 20px;
+    overflow-y: auto;
+}
+.form-left::-webkit-scrollbar {
+    display: none;
 }
 .form-content{
     display: flex;
