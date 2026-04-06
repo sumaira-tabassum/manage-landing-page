@@ -71,8 +71,8 @@ nav ul li a {
     /* position: relative; */
     background-color: white;
     padding: 30px;
-    width: 1500px;
-    height: 800px;
+    width: 60%;
+    height: 80%;
     border-radius: 20px;
     display: flex;
     justify-content: space-between;
@@ -95,7 +95,7 @@ nav ul li a {
 .form-content{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
 }
 .input-field{
     border: none;
@@ -218,6 +218,7 @@ nav ul li a {
     position: relative;
     padding: 60px 20px 20px 20px;
     min-width: 30%;
+    overflow: visible;
 }
 
 .avatar {
@@ -226,7 +227,6 @@ nav ul li a {
     width: 90px;
     top: -15%;
     left: 40%;
-    /* z-index: 1; */
 }
 
 .simplify {
